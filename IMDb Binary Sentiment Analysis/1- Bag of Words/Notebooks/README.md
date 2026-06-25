@@ -6,7 +6,7 @@ To maintain consistency and focus on understanding each model deeply, this proje
 | 1      | Logistic Regression Classification            | TBD             | In Progress |
 | 2      | K-Nearest Neighbors (KNN) Classification      | TBD             | In Progress |
 | 3      | Support Vector Machine (SVM) Classification   | TBD             | In Progress |
-| 4      | Naive Bayes Classification                    | TBD             | In Progress |
+| 4      | Naive Bayes Classification                    | 2026-06-25      | Completed   |
 | 5      | Decision Trees Classification                 | TBD             | In Progress |
 | 6      | Random Forest Classification                  | TBD             | In Progress |
 
