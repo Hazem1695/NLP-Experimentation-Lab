@@ -1,15 +1,16 @@
 ## Experiment Progress
 To maintain consistency and focus on understanding each model deeply, this project is structured as a daily release series, where each model is implemented, analyzed, and published separately.
 
-| Day    | Model Name                                    | Publish Date    | Status               |
-| ------ | --------------------------------------------  | --------------- | -------------------- |
-| 1      | Logistic Regression Classification            | 2026-07-05      | Completed            |
-| 2      | K-Nearest Neighbors (KNN) Classification      | 2026-07-07      | Completed            |
-| 3      | Support Vector Machine (SVM) Classification   | 2026-07-07      | Completed            |
-| 4      | Naive Bayes Classification                    | 2026-07-09      | Completed            |
-| 5      | Decision Trees Classification                 | 2026-07-16      | Completed            |
-| 6      | Random Forest Classification                  | 2026-07-17      | Completed            |
-
+| Day    | Model Name                                     | Publish Date    | Status               |
+| ------ | ---------------------------------------------- | --------------- | -------------------- |
+| 1      | Logistic Regression Classification             | 2026-07-05      | Completed            |
+| 2      | K-Nearest Neighbors (KNN) Classification       | 2026-07-07      | Completed            |
+| 3      | Support Vector Machine (SVM) Classification    | 2026-07-07      | Completed            |
+| 4      | Naive Bayes Classification                     | 2026-07-09      | Completed            |
+| 5      | Decision Trees Classification                  | 2026-07-16      | Completed            |
+| 6      | Random Forest Classification                   | 2026-07-17      | Completed            |
+| 7      | XGBoost Classification                         | 2026-08-01      | Completed            |
+| 8      | Artificial Neural Network (ANN) Classification | 2026-08-01      | Planned              |
 - In Progress – Currently being worked on
 - Planned – Not uploaded yet
 - Completed – Uploaded and documented
