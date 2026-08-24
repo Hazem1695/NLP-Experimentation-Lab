@@ -131,8 +131,6 @@ The cost story from the BoW report holds here without change: Naive Bayes remain
 
 # 6. TF-IDF vs. BoW: Which Models Benefit Most
 
-*(New section — directly comparing each model's best result across both vectorizers, since both combined reports now exist.)*
-
 | Model | Best BoW | Best TF-IDF | Change |
 | ----- | -------- | ------------ | ------ |
 | **KNN** | 76.79% | 80.41% | **+3.62** |
