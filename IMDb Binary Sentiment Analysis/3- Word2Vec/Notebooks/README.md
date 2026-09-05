@@ -3,7 +3,7 @@ To maintain consistency and focus on understanding each model deeply, this proje
 
 | Day    | Model Name                                     | Publish Date    | Status               |
 | ------ | ---------------------------------------------  | --------------- | -------------------- |
-| 1      | Logistic Regression Classification             | 2026-08-31      | Planned              |
+| 1      | Logistic Regression Classification             | 2026-09-05      | Completed            |
 | 2      | K-Nearest Neighbors (KNN) Classification       | TBD             | In Progress          |
 | 3      | Support Vector Machine (SVM) Classification    | TBD             | In Progress          |
 | 4      | Naive Bayes Classification                     | TBD             | In Progress          | 
