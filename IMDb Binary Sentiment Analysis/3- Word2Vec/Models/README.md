@@ -15,16 +15,18 @@ Each classifier (`.pkl`) is associated with its documented Word2Vec configuratio
 Use the following configuration to retrain the Word2Vec model used with the Logistic Regression classifier:
 
 ```python
-word2vec_model = Word2Vec(
-    sentences=tokenized_sentences,
-    vector_size=100,
-    window=5,
+from gensim.models import Word2Vec
+model = Word2Vec(
+    sentences=X_train,
+    vector_size=300,
+    window=10,
     min_count=2,
-    workers=4,
-    sg=0,
-    epochs=10,
-    seed=42
+    sg=1,
+    epochs=20,
+    seed=0,
+    workers=1,
 )
+
 def get_average_vector(tokens, model, vector_size):
     valid_vectors = [model.wv[word] for word in tokens if word in model.wv]
     if len(valid_vectors) == 0:
