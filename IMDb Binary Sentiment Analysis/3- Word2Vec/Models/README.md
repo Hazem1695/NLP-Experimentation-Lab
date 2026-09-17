@@ -72,8 +72,9 @@ def get_tfidf_w2v_vector(tokens, model, vector_size):
     vectors = [model.wv[w] for w in valid_tokens]
     return np.average(vectors, axis=0, weights=weights)
 
-X_train_vec = np.array([get_tfidf_w2v_vector(t, model, 100) for t in X_train])
-X_test_vec = np.array([get_tfidf_w2v_vector(t, model, 100) for t in X_test])
+vector_size = 100
+X_train_tfidf_w2v = np.array([get_tfidf_w2v_vector(tokens, model, vector_size) for tokens in X_train])
+X_test_tfidf_w2v  = np.array([get_tfidf_w2v_vector(tokens, model, vector_size) for tokens in X_test])
 
 from sklearn.preprocessing import StandardScaler
 scaler = StandardScaler()
@@ -81,4 +82,4 @@ X_train_vec = scaler.fit_transform(X_train_vec)
 X_test_vec = scaler.transform(X_test_vec)
 ```
 
-Matching classifier: ` `
+Matching classifier: `Word2Vec_KNN_model.pkl`
