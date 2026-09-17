@@ -174,25 +174,48 @@ Each project may include:
 
 ### Bag of Words
 
-- [ ] GaussianNB
-- [ ] MultinomialNB
-- [ ] Logistic Regression
-- [ ] LinearSVC
-- [ ] Decision Tree
-- [ ] Random Forest
+- [x] Logistic Regression
+- [x] KNearest Neighbors (KNN)
+- [x] LinearSVC
+- [x] GaussianNB
+- [x] MultinomialNB
+- [x] BernoulliNB
+- [x] ComplementNB
+- [x] Decision Tree
+- [x] Random Forest
+- [x] XGBoost
+- [x] Artificial Neural Network (ANN)
 
 ### TF-IDF
 
-- [ ] MultinomialNB
-- [ ] Logistic Regression
-- [ ] LinearSVC
-- [ ] Random Forest
+- [x] Logistic Regression
+- [x] KNearest Neighbors (KNN)
+- [x] LinearSVC
+- [x] GaussianNB
+- [x] MultinomialNB
+- [x] BernoulliNB
+- [x] ComplementNB
+- [x] Decision Tree
+- [x] Random Forest
+- [x] XGBoost
+- [x] Artificial Neural Network (ANN)
 
 ### Embeddings
 
 - [ ] Word2Vec
 - [ ] FastText
 - [ ] GloVe
+
+### Word2Vec
+- [x] Logistic Regression
+- [x] KNearest Neighbors (KNN)
+- [ ] LinearSVC
+- [ ] GaussianNB
+- [ ] Decision Tree
+- [ ] Random Forest
+- [ ] XGBoost
+- [ ] Artificial Neural Network (ANN)
+- [ ] BiLSTM
 
 ### Transformers
 
