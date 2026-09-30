@@ -5,6 +5,7 @@ To maintain consistency and focus on understanding each model deeply, this proje
 | ------ | -------------------------------------------------  | --------------- | ----------- |
 | 1      | Bag of Word (BoW)                                  | 2026-07-02      | Completed   |
 | 2      | TF-IDF (Term Frequency-Inverse Document Frequency) | 2026-08-01      | Completed   |
+| 3      | Word2Vec                                           | TBD             | In Progress |
 
 - In Progress – Currently being worked on
 - Planned – Not uploaded yet
