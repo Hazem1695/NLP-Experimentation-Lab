@@ -114,6 +114,6 @@ X_train_w2v = np.array([get_average_vector(tokens, model, vector_size) for token
 X_test_w2v = np.array([get_average_vector(tokens, model, vector_size) for tokens in X_test])
 ```
 
-Matching classifier: ` `
+Matching classifier: `Word2Vec_LinearSVC_model.pkl`
 
 ---
