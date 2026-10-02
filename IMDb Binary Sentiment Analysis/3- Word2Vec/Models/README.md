@@ -117,3 +117,15 @@ X_test_w2v = np.array([get_average_vector(tokens, model, vector_size) for tokens
 Matching classifier: `Word2Vec_LinearSVC_model.pkl`
 
 ---
+
+### 4. Naive Bayes
+
+Use the following configuration to retrain the Word2Vec model used with the Naive Bayes classifier:
+```python
+from gensim.models import Word2Vec
+
+```
+
+Matching classifier: ` `
+
+---
