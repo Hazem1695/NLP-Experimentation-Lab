@@ -152,6 +152,6 @@ X_train_tfidf_w2v = np.array([get_tfidf_w2v_vector(tokens, model, vector_size) f
 X_test_tfidf_w2v  = np.array([get_tfidf_w2v_vector(tokens, model, vector_size) for tokens in X_test])
 ```
 
-Matching classifier: ` `
+Matching classifier: `Word2Vec_GaussianNB_model.pkl`
 
 ---
