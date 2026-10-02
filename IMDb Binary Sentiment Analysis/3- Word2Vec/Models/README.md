@@ -123,7 +123,33 @@ Matching classifier: `Word2Vec_LinearSVC_model.pkl`
 Use the following configuration to retrain the Word2Vec model used with the Naive Bayes classifier:
 ```python
 from gensim.models import Word2Vec
+model = Word2Vec(
+    sentences=X_train,
+    vector_size=100,
+    window=10,
+    min_count=5,
+    sg=1,
+    epochs=5,
+    seed=0,
+    workers=1
+)
 
+from sklearn.feature_extraction.text import TfidfVectorizer
+tfidf = TfidfVectorizer()
+tfidf.fit([' '.join(tokens) for tokens in X_train])
+tfidf_weights = dict(zip(tfidf.get_feature_names_out(), tfidf.idf_))
+
+def get_tfidf_w2v_vector(tokens, model, vector_size):
+    valid_tokens = [w for w in tokens if w in model.wv]
+    if not valid_tokens:
+        return np.zeros(vector_size)
+    weights = [tfidf_weights.get(w, 1.0) for w in valid_tokens]
+    vectors = [model.wv[w] for w in valid_tokens]
+    return np.average(vectors, axis=0, weights=weights)
+
+vector_size = 100
+X_train_tfidf_w2v = np.array([get_tfidf_w2v_vector(tokens, model, vector_size) for tokens in X_train])
+X_test_tfidf_w2v  = np.array([get_tfidf_w2v_vector(tokens, model, vector_size) for tokens in X_test])
 ```
 
 Matching classifier: ` `
