@@ -209,7 +209,7 @@ Each project may include:
 ### Word2Vec
 - [x] Logistic Regression
 - [x] KNearest Neighbors (KNN)
-- [ ] LinearSVC
+- [x] LinearSVC
 - [ ] GaussianNB
 - [ ] Decision Tree
 - [ ] Random Forest
